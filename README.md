@@ -9,7 +9,7 @@ Kimai is a multi-container timesheet management application deployment EKS
 - Pod for mysql
 
 ### Infra topology
-[kimai eks](./kimai-infra.jpg)
+![kimai eks](./kimai-infra.jpg)
 
 - kimai service deployed as Kubenretes deployment containing the persistent volume AWS EBS to store HTML/php pages.
 - MySQL service deployed as Kubenretes deployment containing Persistent volume AWS EBS to store MySQL data.
